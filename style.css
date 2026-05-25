@@ -1,0 +1,100 @@
+:root{
+    --cor1: #f2f2f2f2;
+    --cor2: #049dd9;
+    --cor3: #04b2d9;
+    --cor4: #f2c438;
+    --cor5: #035aa6;
+}
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--cor5);
+    align-items: center;
+    gap: 10px;
+ 
+
+
+}
+#logo{
+    border-radius: 50%;
+    margin: 10px;
+  
+}
+#logo:hover{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.links{
+    display: inline-flex;
+    margin-top: 55px;
+    justify-content: flex-end;
+}
+.link{
+    font-size: 1.3rem;
+    gap: 10px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+    
+}
+#entar{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    padding: 1px 8px;
+
+}
+#cadastrar{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    padding: 1px 8px;
+    
+}
+.link:hover{
+    font-size: 1.4rem;
+    color: white;
+    transition: 0.90s;
+    text-decoration: underline;
+}
+body{
+    background-image: var(--cor1);
+}
+.principal{
+    width: 100%;
+    height: 90%;
+    padding-block-start: 10%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.title{
+    font-size: 5em;
+    color: var(--cor4);
+   
+}
+.foto{
+    width: 500px;
+    height: 600px;
+    background-color: #04b2d9;
+    border-radius: 50% 0% 0% 0%;
+}
+#foto_inicial{
+    width: 500px;
+    height: 600px;
+    border-radius: 50% 0% 0% 0%;
+    
+}
